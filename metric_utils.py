@@ -12,7 +12,7 @@ def multiclass_multioutput_overall_precision_recall_f1score(y_true, y_pred, zero
     aus = np.logical_and(y_true, y_pred)
     # aus is an [n,m] shaped tensor where
     # the (i,j) element is 1 if the j'th output of the i'th input is correctly classified
-    p_intersec_target_ = np.sum(aus)  # cardinality
+    p_intersec_target_ = np.sum(aus)
     # p_intersec_target_ is the cardinality of the set |P intersect T|  (look the readme for the formulas)
     p_ = np.sum(y_pred)
     # p_ is the cardinality |P|
