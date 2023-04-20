@@ -8,5 +8,5 @@ the formulas used can be formuled as the following:
 $$\begin{align}
 P = \frac{\sum_i | P_i \cap T_i |}{\sum_i |P_i|} \\
 R = \frac{\sum_i | P_i \cap T_i |}{\sum_i |T_i|} \\
-F1 = \frac{2*P*R}{P+R}
+F1 = \frac{2 * P * R}{P+R}
 \end{align}$$
