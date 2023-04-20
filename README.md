@@ -1,5 +1,5 @@
-# BetterPrecisionRecallAlgorithm
-This code provides an other (maybe better) implementation of the algorithm involved in the calculation of precision and recall
+# MultiClass MultiOutput Precision Recall Algorithm
+This code provides an implementation of the algorithm involved in the calculation of precision and recall for the multiclass multioutput scenarios
 
 $$\begin{align}
 hP = \frac{\sum_i | \hat{P_i} \cap \hat{T_i} |}{\sum_i |\hat{P_i}|} \\
