@@ -19,3 +19,5 @@ p = \frac{TP}{TP+FP} \\
 r = \frac{TP}{TP+FN} \\
 f1 = \frac{2 * p * r}{p + r}
 \end{align}$$
+
+modifica su ramo dev
